@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
 :root {
     --morado: #8e7bef;
     --negro: #222222;
@@ -74,6 +76,7 @@ img {
     opacity: 100%;
     height: calc(100vh - 2rem);
     z-index: 1;
+    font-family: 'Rubik';
 }
 
 .Header-img {
@@ -118,6 +121,8 @@ img {
 margin: 0;
 font-size: 22px;
 color: var(--morado);
+font-family: 'Rubik', sans-serif;
+
 }
 
 .presentacion-texto h1{
@@ -127,6 +132,7 @@ color: var(--morado);
     text-align: center;
     color: var(--gris);
     padding: 1.5rem 0;
+    font-family: 'Rubik', sans-serif;
     
 }
 
@@ -144,6 +150,8 @@ color: var(--morado);
     color: #FFFFFF;
     font-weight: 600;
     gap: 15px;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 
 .linkedin>a{
@@ -180,6 +188,8 @@ margin-top: 6rem;
     padding-left: 1rem;
     color: #8e7bef;
     align-self: flex-start;
+    font-family: 'Rubik', sans-serif;
+
 }
 
 
@@ -262,6 +272,8 @@ font-size: 1rem;
 .seccion-acerca-de-mi>p{
     padding: 0 1.5rem;
 text-align: left;
+font-family: 'Rubik';
+font-weight: 400;
 }
 
 .seccion-estudios{
@@ -275,6 +287,17 @@ gap: 3rem;
 
 }
 
+.seccion-estudios h3{
+font-family: 'Rubik', sans-serif;
+opacity: 50%;
+font-size: 18px;
+}
+
+.seccion-estudios h4{
+font-size: 14px;
+font-family: 'Rubik', sans-serif;
+opacity: 50%
+}
 
 .estudio{
 display: flex;
@@ -303,6 +326,8 @@ text-align: center;
 gap: 0.75rem;
 padding: 1rem ;
 height: auto;
+font-family: 'Rubik', sans-serif;
+;
 }
 
 .contenedor-icono-habilidad{
@@ -320,6 +345,11 @@ justify-content: center;
 
 .contenedor-texto-habilidad{
     width: 200px;
+    
+}
+
+.contenedor-texto-habilidad>h4{
+opacity: 50%;    
 }
 
 .contenedor-PORTAFILIO{
@@ -353,6 +383,8 @@ min-width: 255px;
 
 .PORTAFILIO>h2{
 padding: 1rem 0 4rem 1rem;
+font-family: 'Rubik', sans-serif;
+
 }
 
 .contenedor-metodos-contacto{
@@ -376,6 +408,13 @@ flex-direction: column;
 text-align: center;
 gap: 0.5rem;
 padding: 1rem;
+font-family: 'Rubik', sans-serif;
+font-size: 16px;
+}
+
+.metodo-contacto a{
+    font-size: 12px;
+
 }
 
 .metodo-contacto>h4>a{
